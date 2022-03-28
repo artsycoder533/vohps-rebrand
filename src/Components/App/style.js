@@ -1,4 +1,4 @@
-import styled, {createGlobalStyle, keyframes} from "styled-components";
+import styled, { createGlobalStyle, keyframes } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     *,
@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Center = styled.div`
-    max-width: 1400px;
-    width: 90vw;
-    margin: 0 auto;
+  max-width: 1400px;
+  width: 90vw;
+  margin: 0 auto;
 `;
