@@ -20,3 +20,10 @@ export const navLinks = [
     text: "Contact",
   },
 ];
+
+export const services = [
+  {
+    url: "/individual",
+    icon: "",
+  }
+];
