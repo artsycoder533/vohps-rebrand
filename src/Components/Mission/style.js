@@ -5,18 +5,22 @@ export const Container = styled.section`
     display: flex;
     gap: 2rem;
     margin-top: 3rem;
+    align-items: center;
 
     div {
       padding: 2rem;
       width: 400px;
-      
+        border-right: 3px solid purple;
 
       h2 {
         text-align: center;
         margin-bottom: 1rem;
-        color: #340431;
+        color: purple;
+      }
+
+      p {
+          line-height: 1.5;
       }
     }
-
   }
 `;
