@@ -21,9 +21,3 @@ export const navLinks = [
   },
 ];
 
-export const services = [
-  {
-    url: "/individual",
-    icon: "",
-  }
-];
