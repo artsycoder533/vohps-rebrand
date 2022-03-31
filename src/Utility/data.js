@@ -2,6 +2,7 @@ import img1 from "../Images/individualpair.jpg";
 import img2 from "../Images/couple4.jpg";
 import img3 from "../Images/therapy.jpg";
 import img4 from "../Images/group2.png";
+import { FiInstagram, FiFacebook } from "react-icons/fi";
 
 export const navLinks = [
   {
@@ -23,6 +24,54 @@ export const navLinks = [
   {
     url: "#contact",
     text: "Contact",
+  },
+];
+
+export const footerLinks = [
+  {
+    url: "/",
+    text: "Home",
+  },
+  {
+    url: "/",
+    text: "Mission",
+  },
+  {
+    url: "/",
+    text: "Dr. Selisha Nelson-Smith Ph.D, LCP",
+  },
+  {
+    url: "/",
+    text: "Therapy Services",
+  },
+  {
+    url: "/",
+    text: "FAQs",
+  },
+  {
+    url: "/",
+    text: "Contact",
+  },
+  {
+    url: "/",
+    text: "Appointment Request",
+  },
+  {
+    url: "/",
+    text: "Psychology Today",
+  },
+];
+
+export const socialLinks = [
+  {
+    url: "https://www.instagram.com/visions_of_hope_ps/",
+    icon: <FiInstagram />,
+    text: "Instagram",
+  },
+  {
+    url: "https://www.facebook.com/Visions-of-Hope-Psychological-Services-LLC-103516475078124/",
+    icon: <FiFacebook />,
+    text: "Facebook",
   },
 ];
 

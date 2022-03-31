@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route}from 'react-router-dom';
 import Home from "../../Pages/Home/Home";
 import Header from "../Header/Header";
 import { GlobalStyle } from './style';
+import Footer from "../Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/faq" />
         <Route path="*" />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
