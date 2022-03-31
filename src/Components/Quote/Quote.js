@@ -2,17 +2,17 @@ import React from 'react'
 import { Container } from './style';
 import { Center } from '../App/style';
 
-const Quote = () => {
+const Quote = ({quote}) => {
+  const { text, author } = quote;
+
   return (
     <Container>
       <Center>
         <div>
           <blockquote>
-            "With over 14 years of professional experience, our hallmark has
-            been focused on attention to individual needs, competently delivered
-            with compassion and sensitivity."
+            "{text}"
           </blockquote>
-          <p>- Dr. Selisha Nelson-Smith PhD, LCP </p>
+          <p>{author}</p>
         </div>
       </Center>
     </Container>
