@@ -13,7 +13,7 @@ const Header = () => {
       <p>**All sessions are currently being held by online teletherapy. **</p>
       <img src={logo} alt="Visions of Hope logo" />
       <Hamburger openMenu={openMenu} setOpenMenu={setOpenMenu} />
-      <Navbar />
+      <Navbar openMenu={openMenu}/>
     </Container>
   );
 };
