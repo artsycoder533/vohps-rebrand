@@ -38,13 +38,17 @@ export const Container = styled.ul`
 `;
 
 export const StyledLink = styled(NavLink)`
-    display: block;
-    padding: 0.5rem;
-    display: flex;
-    gap: 0.25rem;
-    align-items: center;
-    text-decoration: none;
-    color: #eee;
+  display: block;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  text-decoration: none;
+  color: #eee;
+
+  .active {
+    color: #ffd303;
+  }
 `;
 
 export const SocialLinks = styled.ul`
@@ -62,4 +66,8 @@ export const ContactDiv = styled.div`
 
 export const StyledAttrition = styled.p`
     text-align: center;
+
+    a {
+        color: #eee;
+    }
 `;

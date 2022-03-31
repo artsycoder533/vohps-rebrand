@@ -9,9 +9,8 @@ const Quote = ({quote}) => {
     <Container>
       <Center>
         <div>
-          <blockquote>
-            "{text}"
-          </blockquote>
+          <span>&ldquo;</span>
+          <blockquote>"{text}"</blockquote>
           <p>{author}</p>
         </div>
       </Center>
