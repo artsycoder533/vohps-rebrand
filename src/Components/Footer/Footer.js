@@ -2,7 +2,7 @@ import React from "react";
 import { Center } from "../App/style";
 import { footerLinks } from "../../Utility/data";
 import { NavLink } from "react-router-dom";
-import { Container, Wrapper, LinkWrapper, StyledLink, SocialLinks, StyledFooter, ContactDiv, StyledAttrition } from "./style";
+import { Container, Wrapper, LinkWrapper, StyledLink, SocialLinks, StyledFooter, ContactDiv, StyledAttrition, StyledRegLink } from "./style";
 import logo from "../../Images/logo.png";
 import { socialLinks } from "../../Utility/data";
 
@@ -41,10 +41,13 @@ const Footer = () => {
                   const { url, icon, text } = link;
                   return (
                     <li key={index}>
-                      <StyledLink to={url}>
+                      <StyledRegLink
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer">
                         {icon}
                         {text}
-                      </StyledLink>
+                      </StyledRegLink>
                     </li>
                   );
                 })}
@@ -54,7 +57,7 @@ const Footer = () => {
           <StyledAttrition>
             &copy; Copyright Visions of Hpe Psychological Services, LLC | All
             Rights Reserved | Website made by{" "}
-            <a href="https://natashajohnson.dev/"> Natasha Johnson</a>
+            <a href="https://natashajohnson.dev/" target="_blank" rel="noopener noreferrer"> Natasha Johnson</a>
           </StyledAttrition>
         </Wrapper>
       </Center>

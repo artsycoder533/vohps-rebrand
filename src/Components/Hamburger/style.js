@@ -9,7 +9,11 @@ export const StyledHamburger = styled.button`
     position: relative;
     background: transparent;
     border: 1px solid transparent;
-    cursor: pointer;
+    align-self: flex-end;
+
+    @media all and (min-width: 768px){
+        display: none;
+    }
 `;
 
 export const Line = styled.span`

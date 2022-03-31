@@ -51,6 +51,20 @@ export const StyledLink = styled(NavLink)`
   }
 `;
 
+export const StyledRegLink = styled.a`
+  display: block;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  text-decoration: none;
+  color: #eee;
+
+  .active {
+    color: #ffd303;
+  }
+`;
+
 export const SocialLinks = styled.ul`
     display: flex;
     list-style-type: none;

@@ -1,12 +1,12 @@
 import React from 'react'
-import { StyledHamburger, Line, TopLine, MiddleLine, BottomLine } from './style';
+import { StyledHamburger, TopLine, MiddleLine, BottomLine } from './style';
 
-const Hamburger = () => {
+const Hamburger = ({openMenu}) => {
   return (
     <StyledHamburger>
-      <TopLine></TopLine>
-      <MiddleLine></MiddleLine>
-      <BottomLine></BottomLine>
+      <TopLine openMenu={openMenu}></TopLine>
+      <MiddleLine openMenu={openMenu}></MiddleLine>
+      <BottomLine openMenu={openMenu}></BottomLine>
     </StyledHamburger>
   );
 }
