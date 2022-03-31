@@ -3,21 +3,21 @@ import { NavLink } from "react-router-dom";
 
 export const Container = styled.nav`
   width: 100%;
-  transform: ${({ openMenu }) => (openMenu ? "translateX(0)" : "translateX(100%)")};
+  transform: ${({ openMenu }) =>
+    openMenu ? "translateX(0)" : "translateX(100%)"};
   transition: all 0.3s ease;
   position: absolute;
-  top: 352.22px;
+  top: 370.22px;
   z-index: 1;
 
   ul {
     display: flex;
     justify-content: center;
-    //gap: 2rem;
     list-style-type: none;
-    //padding: 1rem;
     background: purple;
     flex-direction: column;
-    //display: ${({ openMenu }) => (openMenu ? "flex" : "none")};
+    align-items: center;
+    font-weight: 600;
   }
 
   a {
@@ -28,15 +28,18 @@ export const Container = styled.nav`
     letter-spacing: 1px;
 
     &:hover {
-      //border: 1px solid white;
       background: white;
       color: purple;
     }
   }
 
   @media all and (min-width: 768px) {
+    position: initial;
+    transform: translate(0);
+
     ul {
       flex-direction: row;
+      font-weight: 100;
     }
   }
 `;
