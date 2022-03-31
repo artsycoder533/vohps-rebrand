@@ -6,6 +6,7 @@ export const Container = styled.section`
     gap: 2rem;
     margin-top: 3rem;
     align-items: center;
+    justify-content: space-between;
 
     div {
       padding: 2rem;
