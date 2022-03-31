@@ -12,7 +12,7 @@ const Header = () => {
     <Container>
       <p>**All sessions are currently being held by online teletherapy. **</p>
       <img src={logo} alt="Visions of Hope logo" />
-      <Hamburger openMenu={openMenu} onClick={() => setOpenMenu(!openMenu)} />
+      <Hamburger openMenu={openMenu} setOpenMenu={setOpenMenu} />
       <Navbar />
     </Container>
   );
