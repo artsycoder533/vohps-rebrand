@@ -89,12 +89,12 @@ export const services = [
   {
     text: "Group Therapy",
     url: "/group",
-    image: img3,
+    image: img4,
   },
   {
     text: "Psychological Assessments",
     url: "/assessments",
-    image: img4,
+    image: img3,
   },
 ];
 

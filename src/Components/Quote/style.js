@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import { RiDoubleQuotesL } from "react-icons/ri";
 
 export const Container = styled.section`
   height: 250px;
   background: #340431;
+  //background: #4C005E;
   margin-top: 4rem;
   display: flex;
   align-items: center;
@@ -13,6 +13,7 @@ export const Container = styled.section`
   blockquote, p {
     font-size: 1.5rem;
     color: white;
+    text-align: center;
   }
 
 
@@ -33,6 +34,4 @@ export const Container = styled.section`
     font-size: 15rem;
     top: 10px;
   }
-
-
 `;
