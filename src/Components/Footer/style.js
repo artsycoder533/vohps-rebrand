@@ -9,7 +9,7 @@ export const StyledFooter = styled.footer`
 export const LinkWrapper = styled.div`
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 
     div {
         display: flex;
@@ -32,7 +32,7 @@ export const Wrapper = styled.section`
 export const Container = styled.ul`
     list-style-type: none;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     column-gap: 2rem;
     width: 100%;
 `;
