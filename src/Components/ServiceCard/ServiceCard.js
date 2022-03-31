@@ -2,11 +2,11 @@ import React from "react";
 import { Container, StyledIcon } from "./style";
 import { Link } from "react-router-dom";
 
-const ServiceCard = ({icon, link, path}) => {
+const ServiceCard = ({text, url, image}) => {
   return (
     <Container>
-      {icon}
-      <Link to={path}>{link}</Link>
+      <img src={image} alt={text} />
+      <Link to={url}>{text}</Link>
     </Container>
   );
 };

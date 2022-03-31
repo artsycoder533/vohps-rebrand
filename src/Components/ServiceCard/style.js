@@ -6,8 +6,13 @@ export const Container = styled.article`
     justify-content: flex-end;
     align-items: center;
     gap: 2rem;
-    width: 200px;
+    width: 300px;
     padding: 1rem;
     text-align: center;
+    
+
+    img {
+        max-width: 100%;
+    }
 `;
 
