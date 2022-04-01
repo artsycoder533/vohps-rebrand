@@ -7,7 +7,14 @@ export const Container = styled.section`
 
 export const ServicesWrapper = styled.div`
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media all and (min-width: 768px){
+    flex-direction: row;
+  }
 `;
 
 export const StyledPrimaryLink = styled(PrimaryLink)`
