@@ -55,7 +55,7 @@ const Footer = () => {
             </ContactDiv>
           </LinkWrapper>
           <StyledAttrition>
-            &copy; Copyright Visions of Hpe Psychological Services, LLC | All
+            &copy; Copyright Visions of Hope Psychological Services, LLC | All
             Rights Reserved | Website made by{" "}
             <a href="https://natashajohnson.dev/" target="_blank" rel="noopener noreferrer"> Natasha Johnson</a>
           </StyledAttrition>

@@ -18,6 +18,10 @@ export const LinkWrapper = styled.div`
         flex-direction: column;
         width: 100%; 
     }
+
+    @media all and (min-width: 1100px){
+        flex-direction: row;
+    }
 `;
 
 export const Wrapper = styled.section`
@@ -33,15 +37,16 @@ export const Wrapper = styled.section`
 `;
 
 export const Container = styled.ul`
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: auto ;
-    column-gap: 2rem;
-    width: 100%;
-    
-    @media all and (min-width: 768px){
-        grid-template-columns: auto auto;
-    }
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 2rem;
+  width: 100%;
+
+  @media all and (min-width: 768px) {
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+  }
 `;
 
 export const StyledLink = styled(NavLink)`
@@ -81,21 +86,22 @@ export const SocialLinks = styled.ul`
 `;
 
 export const ContactDiv = styled.div`
-    display: flex;
-    gap: 1rem;
-    line-height: 1.5;
-    
-    address {
-        margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  line-height: 1.5;
 
-        p {
-            font-style: normal;
-        }
-    }
+  address {
+    margin-top: 2rem;
+    text-align: center;
+    //font-style: normal;
 
-    @media all and (min-width: 768px){
-        margin-top: 0;
+    p {
     }
+  }
+
+  @media all and (min-width: 768px) {
+    margin-top: 0;
+  }
 `;
 
 export const StyledAttrition = styled.p`
