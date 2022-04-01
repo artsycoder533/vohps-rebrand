@@ -4,16 +4,19 @@ import { NavLink } from "react-router-dom";
 export const StyledFooter = styled.footer`
     background: black;
     color: #eee;
+    font-size: 1.1rem;
 `;
 
 export const LinkWrapper = styled.div`
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 
     div {
         display: flex;
         flex-direction: column;
+        width: 100%; 
     }
 `;
 
@@ -32,14 +35,18 @@ export const Wrapper = styled.section`
 export const Container = styled.ul`
     list-style-type: none;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto ;
     column-gap: 2rem;
     width: 100%;
+    
+    @media all and (min-width: 768px){
+        grid-template-columns: auto auto;
+    }
 `;
 
 export const StyledLink = styled(NavLink)`
   display: block;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
   display: flex;
   gap: 0.25rem;
   align-items: center;
@@ -58,7 +65,7 @@ export const StyledRegLink = styled.a`
   gap: 0.25rem;
   align-items: center;
   text-decoration: none;
-  color: #eee;
+  color: #ffd303;
 
   .active {
     color: #ffd303;
@@ -66,16 +73,29 @@ export const StyledRegLink = styled.a`
 `;
 
 export const SocialLinks = styled.ul`
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
 `;
 
 export const ContactDiv = styled.div`
     display: flex;
     gap: 1rem;
     line-height: 1.5;
+    
+    address {
+        margin-top: 2rem;
+
+        p {
+            font-style: normal;
+        }
+    }
+
+    @media all and (min-width: 768px){
+        margin-top: 0;
+    }
 `;
 
 export const StyledAttrition = styled.p`
