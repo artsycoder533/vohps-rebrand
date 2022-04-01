@@ -18,8 +18,7 @@ export const Container = styled.article`
 `;
 
 export const StyledLink = styled(Link)`
-    font-size: 1.2rem;
-
-
+  font-size: 1.2rem;
+  color: #340431;
 `;
 
