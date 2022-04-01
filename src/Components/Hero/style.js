@@ -8,7 +8,7 @@ export const Container = styled.section`
   background-color: purple;
   background-blend-mode: multiply;
   clip-path: ellipse(171% 100% at 5.23% 0%);
-  height: 40vh;
+  height: 50vh;
   display: flex;
 
   article {
@@ -21,17 +21,29 @@ export const Container = styled.section`
   }
 
   h1 {
-    font-size: 4rem;
-    width: 50%;
+    font-size: 2.5rem;
+    //width: 50%;
     color: white;
+    text-align: center;
 
     em {
       color: #ffd303;
+    }
+  }
+
+  @media all and (min-width: 768px){
+    h1 {
+      text-align: left;
     }
   }
 `;
 
 export const ButtonContainer = styled.div`
   display: flex;
+  flex-direction: column;
   gap: 1rem;
+
+  @media all and (min-width: 768px){
+    flex-direction: row;
+  }
 `;

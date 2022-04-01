@@ -29,6 +29,7 @@ export const PrimaryLink = styled(NavLink)`
   color: #340431;
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
 export const SecondaryButton = styled.button``;
@@ -47,4 +48,5 @@ export const SecondaryLink = styled(NavLink)`
   border: 2px solid white;
   display: flex;
   align-items: center;
+  justify-content: center;
 `;

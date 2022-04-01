@@ -12,7 +12,6 @@ export const Container = styled.section`
     div {
       padding: 2rem;
       width: 400px;
-        border-right: 3px solid purple;
 
       h2 {
         text-align: center;
@@ -21,7 +20,21 @@ export const Container = styled.section`
       }
 
       p {
-          line-height: 1.5;
+        line-height: 1.5;
+      }
+    }
+
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @media all and (min-width: 992px) {
+      flex-wrap: nowrap;
+
+      div {
+        border-right: 6px solid purple;
       }
     }
   }
