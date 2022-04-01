@@ -32,6 +32,7 @@ export const Container = styled.section`
 
     @media all and (min-width: 992px) {
       flex-wrap: nowrap;
+      justify-content: space-between;
 
       div {
         border-right: 6px solid purple;

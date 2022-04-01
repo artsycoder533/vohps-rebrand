@@ -15,6 +15,10 @@ export const ServicesWrapper = styled.div`
   @media all and (min-width: 768px){
     flex-direction: row;
   }
+
+  @media all and (min-width: 992px){
+    justify-content: space-between;
+  }
 `;
 
 export const StyledPrimaryLink = styled(PrimaryLink)`
