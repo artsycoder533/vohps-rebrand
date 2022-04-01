@@ -7,6 +7,7 @@ export const Container = styled.section`
     margin-top: 3rem;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
 
     div {
       padding: 2rem;

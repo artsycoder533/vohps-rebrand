@@ -3,8 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export const Container = styled.nav`
   width: 100%;
-  transform: ${({ openMenu }) =>
-    openMenu ? "translateX(0)" : "translateX(100%)"};
+  transform: ${({ openMenu }) => openMenu ? "translateX(0)" : "translateX(100%)"};
   transition: all 0.3s ease;
   position: absolute;
   top: 370.22px;
@@ -18,6 +17,7 @@ export const Container = styled.nav`
     flex-direction: column;
     align-items: center;
     font-weight: 600;
+    z-index: 1;
   }
 
   a {
