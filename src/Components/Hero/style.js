@@ -22,12 +22,21 @@ export const Container = styled.section`
 
   h1 {
     font-size: 2.5rem;
-    //width: 50%;
     color: white;
     text-align: center;
+    width: 70%;
 
     em {
       color: #ffd303;
+    }
+
+    @media all and (min-width: 768px){
+        width: 70%;
+        font-size: 4rem;
+    }
+
+    @media all and (min-width: 992px){
+      width: 60%;
     }
   }
 

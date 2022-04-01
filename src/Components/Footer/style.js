@@ -93,10 +93,6 @@ export const ContactDiv = styled.div`
   address {
     margin-top: 2rem;
     text-align: center;
-    //font-style: normal;
-
-    p {
-    }
   }
 
   @media all and (min-width: 768px) {
