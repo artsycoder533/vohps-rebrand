@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.dca289b7.js",
-    "static/media/hero3.jpg": "/static/media/hero3.34a2e564ea7bc0108b6b.jpg",
-    "static/media/group2.png": "/static/media/group2.4dd6872d4f8627030891.png",
-    "static/media/hero.jpg": "/static/media/hero.07a1bac72ec393687f3c.jpg",
-    "static/media/couple4.jpg": "/static/media/couple4.8707a771572c6fe83d83.jpg",
-    "static/media/logo.png": "/static/media/logo.f276fb1b0e7ce32b3ded.png",
-    "static/media/individualpair.jpg": "/static/media/individualpair.ab3787e62fd622cd834d.jpg",
-    "static/media/therapy.jpg": "/static/media/therapy.0b71e5da805c67144806.jpg",
-    "static/media/hero2.jpg": "/static/media/hero2.f5c6d2db9923640c49c8.jpg",
-    "index.html": "/index.html",
-    "main.dca289b7.js.map": "/static/js/main.dca289b7.js.map"
+    "main.js": "/vohps-rebrand/static/js/main.6a97cf4d.js",
+    "static/media/hero3.jpg": "/vohps-rebrand/static/media/hero3.34a2e564ea7bc0108b6b.jpg",
+    "static/media/group2.png": "/vohps-rebrand/static/media/group2.4dd6872d4f8627030891.png",
+    "static/media/hero.jpg": "/vohps-rebrand/static/media/hero.07a1bac72ec393687f3c.jpg",
+    "static/media/couple4.jpg": "/vohps-rebrand/static/media/couple4.8707a771572c6fe83d83.jpg",
+    "static/media/logo.png": "/vohps-rebrand/static/media/logo.f276fb1b0e7ce32b3ded.png",
+    "static/media/individualpair.jpg": "/vohps-rebrand/static/media/individualpair.ab3787e62fd622cd834d.jpg",
+    "static/media/therapy.jpg": "/vohps-rebrand/static/media/therapy.0b71e5da805c67144806.jpg",
+    "static/media/hero2.jpg": "/vohps-rebrand/static/media/hero2.f5c6d2db9923640c49c8.jpg",
+    "index.html": "/vohps-rebrand/index.html",
+    "main.6a97cf4d.js.map": "/vohps-rebrand/static/js/main.6a97cf4d.js.map"
   },
   "entrypoints": [
-    "static/js/main.dca289b7.js"
+    "static/js/main.6a97cf4d.js"
   ]
 }
