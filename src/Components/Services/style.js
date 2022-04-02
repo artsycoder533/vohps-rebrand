@@ -16,9 +16,6 @@ export const ServicesWrapper = styled.div`
     flex-direction: row;
   }
 
-  @media all and (min-width: 992px){
-    justify-content: space-between;
-  }
 `;
 
 export const StyledPrimaryLink = styled(PrimaryLink)`
