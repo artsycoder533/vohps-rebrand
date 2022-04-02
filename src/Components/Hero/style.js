@@ -24,7 +24,7 @@ export const Container = styled.section`
     font-size: 2rem;
     color: white;
     text-align: center;
-    width: 70%;
+    //width: 70%;
 
     em {
       color: #ffd303;
