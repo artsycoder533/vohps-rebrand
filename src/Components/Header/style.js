@@ -4,8 +4,8 @@ export const Container = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
-  //position: relative;
   overflow: hidden;
+  box-shadow: 0px 15px 10px -15px;
 
   img {
     width: 200px;
@@ -17,6 +17,6 @@ export const Container = styled.header`
     background: purple;
     width: 100%;
     text-align: center;
-    color: white; 
+    color: white;
   }
 `;

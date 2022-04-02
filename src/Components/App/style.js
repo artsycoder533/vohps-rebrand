@@ -14,11 +14,11 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        
+      
     }
 
     main {
-
+       
     }
 `;
 

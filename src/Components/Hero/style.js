@@ -21,7 +21,7 @@ export const Container = styled.section`
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
     text-align: center;
     width: 70%;

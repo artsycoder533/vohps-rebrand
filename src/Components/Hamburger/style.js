@@ -10,6 +10,7 @@ export const StyledHamburger = styled.button`
     background: transparent;
     border: 1px solid transparent;
     align-self: flex-end;
+    margin-right: 1rem;
 
     @media all and (min-width: 768px){
         display: none;

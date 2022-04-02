@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, IconWrapper, StyledPrimaryLink } from "./style";
+import { Container, StyledPrimaryLink } from "./style";
 import { Center } from "../App/style";
 import ServiceCard from "../ServiceCard/ServiceCard";
 import { ServicesWrapper, Wrapper } from "./style";
