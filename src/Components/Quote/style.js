@@ -1,14 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  //height: 250px;
   background: #340431;
-  //background: #4C005E;
   margin-top: 4rem;
   display: flex;
   align-items: center;
-  //background-position: fixed;
-  //position: relative;
   padding: 2rem;
 
   blockquote,
@@ -23,7 +19,6 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    //width: 70%;
     margin-left: auto;
     position: relative;
   }
@@ -39,7 +34,12 @@ export const Container = styled.section`
       position: absolute;
       transform: translate(-125px, -100px);
       font-size: 15rem;
-      top: 10px;
+      top: 20px;
+      display: block;
+    }
+
+    div {
+      width: 70%;
     }
   }
 `;
