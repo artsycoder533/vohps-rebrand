@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Routes, Route}from 'react-router-dom';
+import {HashRouter, Routes, Route}from 'react-router-dom';
 import Home from "../../Pages/Home/Home";
 import Header from "../Header/Header";
 import { GlobalStyle } from './style';
@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <GlobalStyle />
       <Header />
       <Routes>
@@ -17,7 +17,7 @@ function App() {
         <Route path="*" />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
