@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     main {
-       min-height: calc(100vh - 300px - 50px );
+       //min-height: calc(100vh - 300px - 50px );
     }
 `;
 

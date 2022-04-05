@@ -1,17 +1,16 @@
 import React from "react";
 import { Center } from "../../Components/App/style";
-import { Link } from "react-router-dom";
-import Headshot from "../../Images/headshot.jpg";
-import { BioStats, BioText } from "./style";
+import Headshot from "../../Images/headshot.png";
+import { AboutSection, BioStats, BioText, Container } from "./style";
 import { PrimaryLink } from "../../Components/Button/style";
 
 const About = () => {
   return (
-    <main>
+    <Container>
       <Center>
-        <section>
+        <AboutSection>
           <BioStats>
-            <img src={Headshot} alt="" />
+            <img src={Headshot} alt="headshot of Dr Nelson-Smith" />
             <h3>Dr. Selisha Nelson-Smith PhD, LCP</h3>
             <PrimaryLink to="/contact">Schedule Appointment</PrimaryLink>
             <a href="">View Psychology Today Profile</a>
@@ -44,9 +43,9 @@ const About = () => {
               incorporate a fun, experiential, and creative approach to therapy.
             </p>
           </BioText>
-        </section>
+        </AboutSection>
       </Center>
-    </main>
+    </Container>
   );
 };
 
