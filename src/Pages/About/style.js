@@ -14,42 +14,39 @@ export const AboutSection = styled.section`
 
   @media all and (min-width: 768px) {
     flex-direction: row;
-    gap: 2rem;
-   justify-content: center;
+    gap: 4rem;
+    justify-content: center;
   }
 `;
 
 export const BioText = styled.article`
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    line-height: 1.5;
-    margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.5;
+  margin: 2rem 0;
+  width: 100%;
+
+  @media all and (min-width: 768px) {
+    flex: 1;
+  }
 `;
 
 export const BioStats = styled.article`
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 0.5rem;
+  gap: 1rem;
   margin-top: 2rem;
   align-items: center;
-  max-width: 400px;
-  width: 100%;
 
   img {
-    position: relative;
-
-    &::before {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 100%;
-      background: red;
-    }
+    border-radius: 50%;
+    max-width: 400px;
   }
 
   @media all and (min-width: 768px){
       margin-top: 0;
+      flex: 1;
   }
 `;
