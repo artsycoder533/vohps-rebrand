@@ -28,7 +28,11 @@ export const BioText = styled.article`
   width: 100%;
 
   @media all and (min-width: 768px) {
-    flex: 1;
+    flex: 2;
+  }
+
+  @media all and (min-width: 992px){
+      flex: 1;
   }
 `;
 
