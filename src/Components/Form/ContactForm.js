@@ -8,7 +8,7 @@ import FormCheckbox from "../FormCheckbox/FormCheckbox";
 const ContactForm = ({ title }) => {
   return (
     <Container>
-      <Center>
+     
         <StyledForm>
           <h3>{title}</h3>
           <FormInput
@@ -51,7 +51,7 @@ const ContactForm = ({ title }) => {
           />
           <FormButton>Send Message</FormButton>
         </StyledForm>
-      </Center>
+     
     </Container>
   );
 };
