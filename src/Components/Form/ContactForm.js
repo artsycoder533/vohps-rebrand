@@ -3,6 +3,7 @@ import FormInput from "../FormInput/FormInput";
 import { Container, FormButton, StyledForm } from "./style";
 import { Center } from "../App/style";
 import TextArea from "../TextArea/TextArea";
+import FormCheckbox from "../FormCheckbox/FormCheckbox";
 
 const ContactForm = ({ title }) => {
   return (
@@ -30,6 +31,23 @@ const ContactForm = ({ title }) => {
             id="email"
             htmlFor="message"
             placeholder="We are committed to your privacy.  Please only include general non-confidential information"
+          />
+          <p>Terms of Use</p>
+          <p>
+            By Submitting this form via this web portal, you acknowledge and
+            accept that risks of communicating your health information via this
+            unencrypted email and electronic messaging and wish to continue
+            despite those risks. By clicking "Yes, I want to submit this form",
+            you agree to hold Visions of Hope Psychological Services, LLC
+            harmless for unauthorized use, disclosure, or access of your
+            protected health information sent via this electronic means.
+          </p>
+          <FormCheckbox
+            label="Yes, I want to submit this form"
+            type="checkbox"
+            name="submit"
+            id="submit"
+            htmlFor="submit"
           />
           <FormButton>Send Message</FormButton>
         </StyledForm>
