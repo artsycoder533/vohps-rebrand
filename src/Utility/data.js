@@ -22,7 +22,7 @@ export const navLinks = [
     text: "FAQs",
   },
   {
-    url: "#contact",
+    url: "/contact",
     text: "Contact",
   },
 ];
@@ -37,7 +37,7 @@ export const footerLinks = [
     text: "Mission",
   },
   {
-    url: "/",
+    url: "/about",
     text: "Dr. Selisha Nelson-Smith Ph.D, LCP",
   },
   {
@@ -49,7 +49,7 @@ export const footerLinks = [
     text: "FAQs",
   },
   {
-    url: "/",
+    url: "/contact",
     text: "Contact",
   },
   {
