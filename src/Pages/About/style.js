@@ -28,6 +28,10 @@ export const BioText = styled.article`
   margin: 2rem 0;
   width: 100%;
 
+  p:nth-of-type(1)::first-letter {
+    font-size: 4rem;
+  }
+
   @media all and (min-width: 768px) {
     flex: 2;
   }
