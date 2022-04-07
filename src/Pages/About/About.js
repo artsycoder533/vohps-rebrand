@@ -3,10 +3,12 @@ import { Center } from "../../Components/App/style";
 import Headshot from "../../Images/headshot.png";
 import { AboutSection, BioStats, BioText, Container } from "./style";
 import { PrimaryLink } from "../../Components/Button/style";
+import Title from "../../Components/Title/Title";
 
 const About = () => {
   return (
     <Container>
+      <Title title="About Us" />
       <Center>
         <AboutSection>
           <BioStats>

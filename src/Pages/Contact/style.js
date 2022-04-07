@@ -11,3 +11,13 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-around;
 `;
+
+export const SpecialTitle = styled.h2`
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  font-size: 3rem;
+`;
+
+
+
