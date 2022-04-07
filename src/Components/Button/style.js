@@ -32,7 +32,11 @@ export const PrimaryLink = styled(NavLink)`
   justify-content: center;
 `;
 
-export const SecondaryButton = styled.button``;
+export const SecondaryButton = styled(PrimaryButton)`
+  background: transparent;
+  color: #340431;
+  border: 2px solid #340431;
+`;
 
 export const SecondaryLink = styled(NavLink)`
   text-decoration: none;

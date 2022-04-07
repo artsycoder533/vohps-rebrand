@@ -121,14 +121,16 @@ export const serviceDescriptions = [
     description:
       "We serve a broad range of psychosocial needs and client demographics. We specialize in supporting clients through experiences with depression, anxiety, posttraumatic stress, ADHD, occupational stressors, personal/sexual/racial identity issues, challenges in interpersonal relationships, grief, substance abuse, legal problems, disability, workers compensation and psychological evaluations.",
     btn: "Schedule Appointment",
-    img: Individual
+    img: Individual,
+    url: "/contact",
   },
   {
     title: "Couples Therapy",
     description:
       "Couples therapy is a type of psychotherapy focused on supporting couples in working through interpersonal challenges, understanding delicate intricacies of their relationship, improving communication, learning to attune to one another, and developing healthier ways of relating to one another. Specific therapeutic techniques and interventions are used to support the couple's goals.",
     btn: "Schedule Appointment",
-    img: Couple
+    img: Couple,
+    url: "/contact",
   },
   {
     title: "Group Therapy",
@@ -137,7 +139,8 @@ export const serviceDescriptions = [
     description2:
       "Coming Soon: Therapy Support Group for the LGBTQIA Community!",
     btn: "Join the waiting list",
-    img: Group
+    img: Group,
+    url: "/contact",
   },
   {
     title: "Psychological Evaluations",
@@ -145,7 +148,8 @@ export const serviceDescriptions = [
       "Psychological Evaluations are used to assess cognitive, personality, and emotional functioning. Evaluations can also be facilitated for child custody, competency to stand trial, employment purposes, etc.",
     description2: "*Psychological Evaluations are administered in person.",
     btn: "Schedule Appointment",
-    img: Evaluation
+    img: Evaluation,
+    url: "/contact",
   },
 ];
 
