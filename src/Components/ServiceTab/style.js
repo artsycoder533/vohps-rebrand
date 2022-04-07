@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.article`
-    padding: 2rem;
+    //padding: 2rem;
     display: flex;
     gap: 4rem;
     flex-direction: column;
@@ -14,6 +14,7 @@ export const Container = styled.article`
 
     @media all and (min-width: 992px){
         flex-direction: row;
+        justify-content: center;
         padding: 2rem;
 
         div {
@@ -39,6 +40,7 @@ export const StyledDescription = styled.div`
   }
 
   @media all and (min-width: 992px) {
-    padding: 0 2rem;
+    padding: 0 3rem;
+    gap: 3rem;
   }
 `;

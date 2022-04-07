@@ -50,4 +50,10 @@ export const Container = styled.nav`
 
 export const StyledLink = styled(NavLink)`
   text-decoration: none;
+  font-weight: bold;
+
+  &.active {
+    background: white;
+    color: purple;
+  }
 `;

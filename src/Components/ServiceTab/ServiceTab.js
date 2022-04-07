@@ -26,7 +26,7 @@ const ServiceTab = ({ service, view, index }) => {
         <StyledDescription>
           <h3>{title}</h3>
           <p>{description}</p>
-          <PrimaryLink to="url">{btn}</PrimaryLink>
+          <PrimaryLink to={url}>{btn}</PrimaryLink>
         </StyledDescription>
         <div>
           <img src={img} alt="" />
