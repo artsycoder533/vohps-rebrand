@@ -1,16 +1,13 @@
 import styled from "styled-components";
-import { FaPhone, FaEnvelope, FaClock, FaMapMarkerAlt } from "react-icons/fa";
 
 export const Container = styled.article`
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  //background: white;
   padding: 1rem;
   max-width: 600px;
   justify-content: center;
   text-align: center;
-  //background: #cdf5fd;
 
   div {
     display: flex;

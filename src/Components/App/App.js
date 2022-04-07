@@ -6,6 +6,7 @@ import { GlobalStyle } from './style';
 import Footer from "../Footer/Footer";
 import About from "../../Pages/About/About";
 import Contact from "../../Pages/Contact/Contact";
+import TherapyServices from "../../Pages/TherapyServices/TherapyServices";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" />
+        <Route path="/services" element={<TherapyServices />}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="/faqs" />
         <Route path="*" />

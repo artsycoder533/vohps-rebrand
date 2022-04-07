@@ -5,13 +5,11 @@ import { Container, SpecialTitle } from './style';
 import Map from '../../Components/Map/Map';
 import ContactInfo from '../../Components/ContactInfo/ContactInfo';
 import { Wrapper } from './style';
-import Title from '../../Components/Title/Title';
 
 
 const Contact = () => {
   return (
     <Container>
-      {/* <SpecialTitle>Contact Us</SpecialTitle> */}
       <Center>
         <Wrapper>
           <ContactForm title="Have a question? Contact Us Today!" />
