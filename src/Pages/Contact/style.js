@@ -9,7 +9,13 @@ export const Container = styled.main`
 
 export const Wrapper = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+
+  @media all and (min-width: 1100px){
+    flex-direction: row;
+  }
 `;
 
 export const SpecialTitle = styled.h2`
