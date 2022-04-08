@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.article`
-    //padding: 2rem;
     display: flex;
     gap: 4rem;
     flex-direction: column;
@@ -32,7 +31,7 @@ export const StyledDescription = styled.div`
   gap: 2rem;
 
   h3 {
-    font-size: 2rem;
+    font-size: 2rem; 
   }
 
   p:nth-of-type(2) {

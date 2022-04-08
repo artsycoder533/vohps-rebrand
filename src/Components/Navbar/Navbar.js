@@ -2,7 +2,7 @@ import React from "react";
 import { Container, StyledLink } from "./style";
 import { navLinks } from "../../Utility/data";
 
-const Navbar = ({ openMenu }) => {
+const Navbar = ({ openMenu, setOpenMenu }) => {
   return (
     <Container openMenu={openMenu}>
       <ul>
@@ -10,7 +10,7 @@ const Navbar = ({ openMenu }) => {
           const { url, text } = link;
           return (
             <li key={index}>
-              <StyledLink to={url}>{text}</StyledLink>
+              <StyledLink to={url} onClick={()=>setOpenMenu(!openMenu)}>{text}</StyledLink>
             </li>
           );
         })}
