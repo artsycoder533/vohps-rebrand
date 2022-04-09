@@ -3,10 +3,9 @@ import { NavLink } from "react-router-dom";
 
 export const Container = styled.nav`
   width: 100%;
-  //transform: ${({ openMenu }) =>
-    openMenu ? "translateX(0)" : "translateX(100%)"};
-  transform: ${({ openMenu }) =>
-    openMenu ? "scale(1) rotate(360deg)" : "scale(0)"};
+  
+  transform: ${({ openMenu }) => openMenu ? "scale(1) rotate(360deg)" : "scale(0)"};
+    
   transition: all 0.3s ease;
   position: absolute;
   top: 370.22px;
@@ -56,4 +55,13 @@ export const StyledLink = styled(NavLink)`
     background: white;
     color: purple;
   }
+`;
+
+export const SubLinks = styled.ul`
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  height: 100%;
+  //position: absolute;
+  display: ${({openSub})=> openSub ? "block" : "none"};
 `;
