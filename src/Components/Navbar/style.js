@@ -4,7 +4,8 @@ import { NavLink } from "react-router-dom";
 export const Container = styled.nav`
   width: 100%;
   
-  transform: ${({ openMenu }) => openMenu ? "scale(1) rotate(360deg)" : "scale(0)"};
+  transform: ${({ openMenu }) =>
+    openMenu ? "scale(1) rotate(360deg)" : "scale(0)"};
     
   transition: all 0.3s ease;
   position: absolute;
@@ -52,7 +53,7 @@ export const StyledLink = styled(NavLink)`
   font-weight: bold;
 
   &.active {
-    background: white;
+    background: #CDF5FD;
     color: purple;
   }
 `;

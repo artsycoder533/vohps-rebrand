@@ -43,6 +43,24 @@ export const Container = styled.ul`
   column-gap: 2rem;
   width: 100%;
 
+  a {
+    display: block;
+    padding: 0.5rem 0;
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    text-decoration: none;
+    color: #eee;
+
+    .active {
+      color: #ffd303;
+    }
+  }
+
+  a:visited {
+    color: white;
+  }
+
   @media all and (min-width: 768px) {
     grid-template-columns: auto auto;
     justify-content: space-around;

@@ -25,6 +25,8 @@ export const Container = styled.section`
 
   span {
     display: none;
+    font-family: sans-serif;
+    padding: 1rem;
   }
 
   @media all and (min-width: 992px) {

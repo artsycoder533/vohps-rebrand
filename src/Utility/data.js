@@ -1,7 +1,7 @@
 import img1 from "../Images/individualpair.jpg";
 import img2 from "../Images/couple4.jpg";
 import img3 from "../Images/therapy.jpg";
-import img4 from "../Images/group2.png";
+import img4 from "../Images/group4.jpg";
 import { FiInstagram, FiFacebook } from "react-icons/fi";
 import Individual from "../Images/individualman.jpg";
 import Couple from "../Images/couple2.jpg";
@@ -38,10 +38,6 @@ export const footerLinks = [
     text: "Home",
   },
   {
-    url: "/",
-    text: "Mission",
-  },
-  {
     url: "/about",
     text: "Dr. Selisha Nelson-Smith Ph.D, LCP",
   },
@@ -58,11 +54,11 @@ export const footerLinks = [
     text: "Contact",
   },
   {
-    url: "/",
+    url: "/contact",
     text: "Appointment Request",
   },
   {
-    url: "/",
+    url: "https://www.psychologytoday.com/us/therapists/dr-selisha-nelson-north-chesterfield-va/179620",
     text: "Psychology Today",
   },
 ];
@@ -114,7 +110,6 @@ export const quotes = [
   },
 ];
 
-//export const servicesButtons = ["Individual Therapy", "Couples Therapy", "Group Therapy", "Psychological Evaluations"];
 
 export const serviceDescriptions = [
   {

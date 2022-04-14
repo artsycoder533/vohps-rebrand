@@ -13,8 +13,8 @@ const Faqs = () => {
           <Title title="FAQs" />
           <AllFaqs />
           <Title title="No Surprises Act" />
-          {noSurprises.map(text => {
-            return <p>{text}</p>
+          {noSurprises.map((text, index) => {
+            return <p key={index}>{text}</p>;
           })}
           <Title title="Good Faith Estimate" />
           {goodFaith.map((item, index) => {
@@ -28,7 +28,7 @@ const Faqs = () => {
                 })}
               </ul>
               <p>{p2}</p>
-              <p>{footer} <a href={link}>{linkText}</a></p>
+              <p>{footer} <a href={link} target="_blank" rel="noopener noreferrer">{linkText}</a></p>
             </StyledArticle>
           })}
         </Wrapper>

@@ -8,10 +8,12 @@ import About from "../../Pages/About/About";
 import Contact from "../../Pages/Contact/Contact";
 import TherapyServices from "../../Pages/TherapyServices/TherapyServices";
 import Faqs from "../../Pages/Faq/Faqs";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <GlobalStyle />
       <Header />
       <Routes>

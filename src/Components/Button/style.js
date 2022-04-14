@@ -40,7 +40,6 @@ export const SecondaryButton = styled(PrimaryButton)`
 
 export const SecondaryLink = styled(NavLink)`
   text-decoration: none;
-  color: white;
   //border: 2px solid white;
   padding: 1rem;
   font-size: 1rem;
@@ -50,6 +49,21 @@ export const SecondaryLink = styled(NavLink)`
   background: transparent;
   color: white;
   border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const StyledRegLink = styled.a`
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background: transparent;
+  color: #340431;
+  border: 2px solid #340431;;
   display: flex;
   align-items: center;
   justify-content: center;

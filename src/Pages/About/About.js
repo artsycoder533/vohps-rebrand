@@ -2,7 +2,7 @@ import React from "react";
 import { Center } from "../../Components/App/style";
 import Headshot from "../../Images/headshot.png";
 import { AboutSection, BioStats, BioText, Container } from "./style";
-import { PrimaryLink } from "../../Components/Button/style";
+import { PrimaryLink, StyledRegLink } from "../../Components/Button/style";
 import Title from "../../Components/Title/Title";
 
 const About = () => {
@@ -15,9 +15,9 @@ const About = () => {
             <img src={Headshot} alt="headshot of Dr Nelson-Smith" />
             <h3>Dr. Selisha Nelson-Smith PhD, LCP</h3>
             <PrimaryLink to="/contact">Schedule Appointment</PrimaryLink>
-            <a href="https://www.psychologytoday.com/us/therapists/dr-selisha-nelson-north-chesterfield-va/179620">
+            <StyledRegLink href="https://www.psychologytoday.com/us/therapists/dr-selisha-nelson-north-chesterfield-va/179620">
               View Psychology Today Profile
-            </a>
+            </StyledRegLink>
           </BioStats>
           <BioText>
             <p>

@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
     }
 
     html {
@@ -15,10 +16,6 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
       
-    }
-
-    main {
-       //min-height: calc(100vh - 300px - 50px );
     }
 `;
 

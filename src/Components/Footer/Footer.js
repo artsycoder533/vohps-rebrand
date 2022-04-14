@@ -5,7 +5,6 @@ import { Container, Wrapper, LinkWrapper, StyledLink, SocialLinks, StyledFooter,
 import logo from "../../Images/logo.png";
 import { socialLinks } from "../../Utility/data";
 
-
 const Footer = () => {
   return (
     <StyledFooter>
@@ -20,6 +19,11 @@ const Footer = () => {
               <Container>
                 {footerLinks.map((link, index) => {
                   const { url, text } = link;
+                  if (text === "Psychology Today") {
+                    return <li key={index}>
+                      <a href={url} target="_blank" rel="noopener noreferrer">{text}</a>
+                    </li>
+                  }
                   return (
                     <li key={index}>
                       <StyledLink to={url}>{text}</StyledLink>
