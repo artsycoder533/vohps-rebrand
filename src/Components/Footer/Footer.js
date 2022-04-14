@@ -1,7 +1,6 @@
 import React from "react";
 import { Center } from "../App/style";
 import { footerLinks } from "../../Utility/data";
-import { NavLink } from "react-router-dom";
 import { Container, Wrapper, LinkWrapper, StyledLink, SocialLinks, StyledFooter, ContactDiv, StyledAttrition, StyledRegLink } from "./style";
 import logo from "../../Images/logo.png";
 import { socialLinks } from "../../Utility/data";

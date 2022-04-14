@@ -1,14 +1,13 @@
-import React, {useState} from "react";
+import React from "react";
 import { Container, StyledDescription } from "./style";
 import { PrimaryLink } from "../Button/style";
 
-const ServiceTab = ({ service, view, index }) => {
+const ServiceTab = ({ service}) => {
     const { title, description, description1, description2, btn, img, url } = service;
-    console.log(view, index);
 
   if (title === "Group Therapy" || title === "Psychological Evaluations") {
     return (
-      <Container index={index} view={view}>
+      <Container>
         <StyledDescription>
           <h3>{title}</h3>
           <p>{description1}</p>
@@ -16,7 +15,7 @@ const ServiceTab = ({ service, view, index }) => {
           <PrimaryLink to={url}>{btn}</PrimaryLink>
         </StyledDescription>
         <div>
-          <img src={img} alt="" />
+          <img src={img} alt={title} />
         </div>
       </Container>
     );
@@ -29,7 +28,7 @@ const ServiceTab = ({ service, view, index }) => {
           <PrimaryLink to={url}>{btn}</PrimaryLink>
         </StyledDescription>
         <div>
-          <img src={img} alt="" />
+          <img src={img} alt={title} />
         </div>
       </Container>
     );

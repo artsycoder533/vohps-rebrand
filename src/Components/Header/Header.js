@@ -3,7 +3,6 @@ import { Container } from "./style";
 import Navbar from "../Navbar/Navbar";
 import Hamburger from "../Hamburger/Hamburger";
 import logo from "../../Images/logo.png";
-import { Center } from "../App/style";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);

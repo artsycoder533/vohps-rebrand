@@ -114,7 +114,7 @@ export const quotes = [
   },
 ];
 
-export const servicesButtons = ["Individual Therapy", "Couples Therapy", "Group Therapy", "Psychological Evaluations"];
+//export const servicesButtons = ["Individual Therapy", "Couples Therapy", "Group Therapy", "Psychological Evaluations"];
 
 export const serviceDescriptions = [
   {

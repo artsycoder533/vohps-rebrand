@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, StyledIcon, StyledLink } from "./style";
-import { Link } from "react-router-dom";
+import { Container, StyledLink } from "./style";
 
 const ServiceCard = ({text, url, image}) => {
   return (

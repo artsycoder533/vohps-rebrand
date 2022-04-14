@@ -4,7 +4,6 @@ import { Center } from "../App/style";
 import ServiceCard from "../ServiceCard/ServiceCard";
 import { ServicesWrapper, Wrapper } from "./style";
 import { services } from "../../Utility/data";
-import { PrimaryLink } from "../Button/style";
 
 const Services = () => {
   return (
