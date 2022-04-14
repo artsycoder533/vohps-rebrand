@@ -68,3 +68,25 @@ export const StyledRegLink = styled.a`
   align-items: center;
   justify-content: center;
 `;
+
+export const ScrollToTopBtn = styled.button`
+  position: fixed;
+  bottom: 75px;
+  right: 15px;
+  background: #fed103;
+  background: #cdf5fd;
+  color: #340431;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fed103;
+  font-size: 1.5rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0px 15px 10px -15px;
+
+  &:hover {
+    opacity: 0.8;
+    background: #fed103;
+  }
+`;

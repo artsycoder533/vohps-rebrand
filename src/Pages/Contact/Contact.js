@@ -5,7 +5,7 @@ import { Container } from './style';
 import Map from '../../Components/Map/Map';
 import ContactInfo from '../../Components/ContactInfo/ContactInfo';
 import { Wrapper } from './style';
-
+import BackToTopButton from '../../Components/BackToTopButton/BackToTopButton';
 
 const Contact = () => {
   return (
@@ -17,6 +17,7 @@ const Contact = () => {
         </Wrapper>
       </Center>
       <Map />
+      <BackToTopButton />
     </Container>
   );
 }

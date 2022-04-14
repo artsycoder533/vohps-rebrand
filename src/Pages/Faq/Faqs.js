@@ -4,6 +4,7 @@ import { Center } from "../../Components/App/style";
 import AllFaqs from "../../Components/AllFaqs/AllFaqs";
 import { Container, Wrapper, StyledArticle } from "./style";
 import { goodFaith, noSurprises } from "../../Utility/data";
+import BackToTopButton from "../../Components/BackToTopButton/BackToTopButton";
 
 const Faqs = () => {
   return (
@@ -19,20 +20,28 @@ const Faqs = () => {
           <Title title="Good Faith Estimate" />
           {goodFaith.map((item, index) => {
             const { heading, p1, p2, list, footer, linkText, link } = item;
-            return <StyledArticle key={index}>
-              <h4>{heading}</h4>
-              <p>{p1}</p>
-              <ul>
-                {list.map((listItem, index) => {
-                 return <li key={index}>{listItem}</li>
-                })}
-              </ul>
-              <p>{p2}</p>
-              <p>{footer} <a href={link} target="_blank" rel="noopener noreferrer">{linkText}</a></p>
-            </StyledArticle>
+            return (
+              <StyledArticle key={index}>
+                <h4>{heading}</h4>
+                <p>{p1}</p>
+                <ul>
+                  {list.map((listItem, index) => {
+                    return <li key={index}>{listItem}</li>;
+                  })}
+                </ul>
+                <p>{p2}</p>
+                <p>
+                  {footer}{" "}
+                  <a href={link} target="_blank" rel="noopener noreferrer">
+                    {linkText}
+                  </a>
+                </p>
+              </StyledArticle>
+            );
           })}
         </Wrapper>
       </Center>
+      <BackToTopButton />
     </Container>
   );
 };

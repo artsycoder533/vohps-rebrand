@@ -2,8 +2,9 @@ import React from "react";
 import { Center } from "../../Components/App/style";
 import Headshot from "../../Images/headshot.png";
 import { AboutSection, BioStats, BioText, Container } from "./style";
-import { PrimaryLink, StyledRegLink } from "../../Components/Button/style";
+import { PrimaryLink,StyledRegLink } from "../../Components/Button/style";
 import Title from "../../Components/Title/Title";
+import BackToTopButton from "../../Components/BackToTopButton/BackToTopButton";
 
 const About = () => {
   return (
@@ -49,6 +50,7 @@ const About = () => {
           </BioText>
         </AboutSection>
       </Center>
+      <BackToTopButton />
     </Container>
   );
 };

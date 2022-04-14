@@ -4,6 +4,7 @@ import { Center } from "../../Components/App/style";
 import { serviceDescriptions } from "../../Utility/data";
 import ServiceTab from "../../Components/ServiceTab/ServiceTab";
 import { Descriptions } from "./style";
+import BackToTopButton from "../../Components/BackToTopButton/BackToTopButton";
 
 const TherapyServices = () => {
 
@@ -13,15 +14,11 @@ const TherapyServices = () => {
       <Center>
         <Descriptions>
           {serviceDescriptions.map((service, index) => {
-            return (
-              <ServiceTab
-                key={index}
-                service={service}
-              />
-            );
+            return <ServiceTab key={index} service={service} />;
           })}
         </Descriptions>
       </Center>
+      <BackToTopButton />
     </section>
   );
 };
