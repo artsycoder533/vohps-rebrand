@@ -79,7 +79,7 @@ export const ScrollToTopBtn = styled.button`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid #fed103;
+  border: 4px solid #fed103;
   font-size: 1.5rem;
   font-weight: 800;
   cursor: pointer;
