@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/vohps-rebrand/static/js/main.176ad8e6.js",
+    "main.js": "/vohps-rebrand/static/js/main.fcc6b183.js",
     "static/media/hero3.jpg": "/vohps-rebrand/static/media/hero3.34a2e564ea7bc0108b6b.jpg",
     "static/media/couple4.jpg": "/vohps-rebrand/static/media/couple4.8707a771572c6fe83d83.jpg",
     "static/media/group4.jpg": "/vohps-rebrand/static/media/group4.3bad72723b33958d98f3.jpg",
@@ -12,9 +12,9 @@
     "static/media/couple2.jpg": "/vohps-rebrand/static/media/couple2.28b288e2d16709ebb46a.jpg",
     "static/media/individualman.jpg": "/vohps-rebrand/static/media/individualman.fcb9c17727f7e95bc7be.jpg",
     "index.html": "/vohps-rebrand/index.html",
-    "main.176ad8e6.js.map": "/vohps-rebrand/static/js/main.176ad8e6.js.map"
+    "main.fcc6b183.js.map": "/vohps-rebrand/static/js/main.fcc6b183.js.map"
   },
   "entrypoints": [
-    "static/js/main.176ad8e6.js"
+    "static/js/main.fcc6b183.js"
   ]
 }
