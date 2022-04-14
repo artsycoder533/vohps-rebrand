@@ -154,3 +154,66 @@ export const serviceDescriptions = [
   },
 ];
 
+export const faqs = [
+  {
+    question: "What are your rates?",
+    answer: [
+      "Psychiatric Diagnostic Intake Evaluation: $200",
+      "Individual Therapy: $165",
+      "Couple's Therapy: $175",
+      "Psychological Evaluation: $175 per hour",
+    ],
+  },
+  {
+    question: "What insurance do you accept?",
+    answer:
+      "We currently accept Aetna, Cigna, Optima, Optum, United HealthCare, Virginia Premier, Medicare and Out of Network.",
+  },
+  {
+    question: "What forms of payment do you accept?",
+    answer:
+      "We accept cash, checks, Health Savings Accounts, and all major credit cards.",
+  },
+  {
+    question: "How do you connect with my insurance?",
+    answer:
+      "When you register as a new client, we will contact your insurance provider in order to determine your co-payment amount. This amount will be collected at the end of each session.",
+  },
+  {
+    question: "What if my insurance has changed?",
+    answer:
+      "Please let us know immediatedly if there are any changes to your insurance coverage. We make every effort to promptly and accurately submit claims, but unpaid balances do remain the individuals responsiblity.",
+  },
+  {
+    question: "What is the cancellation policy?",
+    answer:
+      "If you miss a session without prior cancellation or cancel with less than a 24-hour notice, our policy is to collect an $80 cancellation/no-show fee. This fee may be waived upon mutual agreement that your inability to attend was due circumstances beyond your control. Typically, the first cancellation/no show fee will be waived because we understand that life happens. However, any subsequent cancellations/no-shows will incur a fee. It is important to note that insurance companies do not provide reimbursement for cancelled sessions; thus you will be responsible for the portion of the fee as described above. If is possible, we will try to reschedule your appointment if our schedule permits.",
+  },
+  {
+    question: "What if I am late to my appointment?",
+    answer:
+      "You are responsible for arriving on time. If you arrive late, your appointment will still need to end at the scheduled time.",
+  },
+];
+
+export const noSurprises = [
+  "Under Section 2799B-6 of the Public Health Service Act, health care providers and health care facilities are required to inform individuals who are not enrolled in a plan or coverage or a Federal health care program, or not seeking to file a claim with their plan or coverage both orally and in writing of their ability, upon request or at the time of scheduling health care items and services, to receive a “Good Faith Estimate” of expected charges.",
+];
+
+export const goodFaith = [
+  {
+    heading:
+      "You have the right to receive a “Good Faith Estimate” explaining how much your medical care will cost.",
+    p1: "Under the law, health care providers need to give patients who don’t have insurance or who are not using insurance an estimate of the bill for medical items and services.",
+    list: [
+      "You have the right to receive a Good Faith Estimate for the total expected cost of any non-emergency items or services. This includes related costs like medical tests, prescription drugs, equipment, and hospital fees.",
+      "Make sure your health care provider gives you a Good Faith Estimate in writing at least 1 business day before your medical service or item. You can also ask your health care provider, and any other provider you choose, for a Good Faith Estimate before you schedule an item or service.",
+      "Make sure your health care provider gives you a Good Faith Estimate in writing at least 1 business day before your medical service or item. You can also ask your health care provider, and any other provider you choose, for a Good Faith Estimate before you schedule an item or service.",
+      "Make sure your health care provider gives you a Good Faith Estimate in writing at least 1 business day before your medical service or item. You can also ask your health care provider, and any other provider you choose, for a Good Faith Estimate before you schedule an item or service.",
+    ],
+    footer:
+      "For questions or more information about your right to a Good Faith Estimate, visit: ",
+    linkText: "www.cms.gov/nosurpsises",
+    link: "https://www.cms.gov/nosurprises",
+  },
+];
