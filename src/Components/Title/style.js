@@ -12,6 +12,7 @@ export const StyledTitle = styled.h2`
   position: relative;
   padding: 3rem 0;
   text-align: center;
+  color: purple;
 
   @media all and (min-width: 600px) {
     &::after {
