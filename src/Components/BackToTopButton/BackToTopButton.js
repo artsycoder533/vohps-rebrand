@@ -18,12 +18,13 @@ const BackToTopButton = () => {
     })
   }
 
-  return (
-
-      <ScrollToTopBtn onClick={scrollPageUp}>
+  if (toTop) {
+    return <ScrollToTopBtn onClick={scrollPageUp}>
           <FiArrowUp />
     </ScrollToTopBtn>
-  )
+  }
+
+  return null;
 }
 
 export default BackToTopButton
