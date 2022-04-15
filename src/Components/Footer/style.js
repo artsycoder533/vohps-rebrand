@@ -61,6 +61,11 @@ export const Container = styled.ul`
     color: white;
   }
 
+  a:hover {
+    color: #fed203;
+    text-decoration: underline;
+  }
+
   @media all and (min-width: 768px) {
     grid-template-columns: auto auto;
     justify-content: space-around;
@@ -79,6 +84,11 @@ export const StyledLink = styled(NavLink)`
   .active {
     color: #ffd303;
   }
+
+  &:hover {
+    color: #fed203;
+    text-decoration: underline;
+  }
 `;
 
 export const StyledRegLink = styled.a`
@@ -92,6 +102,11 @@ export const StyledRegLink = styled.a`
 
   .active {
     color: #ffd303;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    color: #cef5fe;
   }
 `;
 
@@ -119,9 +134,14 @@ export const ContactDiv = styled.div`
 `;
 
 export const StyledAttrition = styled.p`
-    text-align: center;
+  text-align: center;
 
-    a {
-        color: #eee;
-    }
+  a {
+    color: #eee;
+  }
+
+  a:hover {
+    color: #fed203;
+    text-decoration: underline;
+  }
 `;

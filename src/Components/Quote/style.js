@@ -10,9 +10,13 @@ export const Container = styled.section`
   blockquote,
   p {
     font-size: 1.5rem;
-    color: white;
     text-align: center;
     line-height: 1.5;
+    color: white;
+  }
+
+  p {
+    color: #fecf06;
   }
 
   div {

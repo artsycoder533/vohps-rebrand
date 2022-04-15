@@ -36,7 +36,6 @@ export const PrimaryLink = styled(NavLink)`
   &:hover {
     color: #340431;
     background: transparent;
-    //border: 2px solid #ffd303;
   }
 
   &::before {
@@ -50,7 +49,7 @@ export const PrimaryLink = styled(NavLink)`
     z-index: -1;
     transform-origin: bottom left;
     transform: rotate(-90deg);
-    transition: transform 1s;
+    transition: transform 0.3s;
   }
 
   &:hover::before {
@@ -66,7 +65,6 @@ export const SecondaryButton = styled(PrimaryButton)`
 
 export const SecondaryLink = styled(NavLink)`
   text-decoration: none;
-  //border: 2px solid white;
   padding: 1rem;
   font-size: 1rem;
   text-transform: uppercase;
@@ -96,7 +94,7 @@ export const SecondaryLink = styled(NavLink)`
     z-index: -1;
     transform-origin: bottom left;
     transform: rotate(-90deg);
-    transition: transform 1s;
+    transition: transform 0.3s;
   }
 
   &:hover::before {
@@ -135,7 +133,7 @@ export const StyledRegLink = styled.a`
     z-index: -1;
     transform-origin: bottom left;
     transform: rotate(-90deg);
-    transition: transform 1s;
+    transition: transform 0.3s;
   }
 
   &:hover::before {
