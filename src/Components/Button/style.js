@@ -30,6 +30,32 @@ export const PrimaryLink = styled(NavLink)`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    color: #340431;
+    background: transparent;
+    //border: 2px solid #ffd303;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #cdf5fd;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    transition: transform 1s;
+  }
+
+  &:hover::before {
+    transform: rotate(0deg);
+  }
 `;
 
 export const SecondaryButton = styled(PrimaryButton)`
@@ -52,6 +78,30 @@ export const SecondaryLink = styled(NavLink)`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    color: #340431;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #cdf5fd;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    transition: transform 1s;
+  }
+
+  &:hover::before {
+    transform: rotate(0deg);
+  }
 `;
 
 export const StyledRegLink = styled.a`
