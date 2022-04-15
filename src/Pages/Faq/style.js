@@ -4,6 +4,7 @@ export const Container = styled.section`
     margin-bottom: 4rem;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 `;
 
 export const Wrapper = styled.div`

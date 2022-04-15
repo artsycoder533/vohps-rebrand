@@ -16,7 +16,7 @@ const About = () => {
             <img src={Headshot} alt="headshot of Dr Nelson-Smith" />
             <h3>Dr. Selisha Nelson-Smith PhD, LCP</h3>
             <PrimaryLink to="/contact">Schedule Appointment</PrimaryLink>
-            <StyledRegLink href="https://www.psychologytoday.com/us/therapists/dr-selisha-nelson-north-chesterfield-va/179620">
+            <StyledRegLink href="https://www.psychologytoday.com/us/therapists/dr-selisha-nelson-north-chesterfield-va/179620" target="_blank" rel="noopener noreferrer">
               View Psychology Today Profile
             </StyledRegLink>
           </BioStats>
