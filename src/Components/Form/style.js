@@ -31,5 +31,34 @@ export const StyledForm = styled.form`
 `;
 
 export const FormButton = styled(PrimaryButton)`
-    margin-left: auto;
+  margin-left: auto;
+  position: relative;
+  transition: all 0.2s;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: all 0.4s;
+    z-index: -1;
+  }
+
+  &:hover::before {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
 `;
