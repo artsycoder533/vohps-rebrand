@@ -16,7 +16,7 @@ export const Container = styled.section`
   }
 
   p {
-    color: #cef5fe;
+    color: #fecf06;
   }
 
   div {
